@@ -18,11 +18,13 @@ My name is Malachi Evans, I am a Geospatial Analyst in the United States Army an
 ##### Reviewed Project 1: Twitter
 
 The first system I had an idea for was a messaging system that connects people that are interested in automotives and certain fields of the automotive industry. Twitter is a great first reference to the type of messaging system I would like to develop. The system they have developed is the premier social media application whose main feature is a constantly updated stream of user input activity output into a single page that is updated simultaneously. They also have a wonderful direct messaging system to send messages back and forth in a separate stream. Both are features that will be used in the creation of my system. In order to achieve this similar to twitter each piece of information will have to have a unique identification number.  The user, the message, and recipient will all have ids each time a message is sent as well as a datetime stamp. In addition, a type will have to be assigned for what type of engagement is taking place.
+
 -------------
 
 ##### Reviewed Project 2: Craigslist
 
 Another example of what I would like to create or have a feature like would a online store / organization system like Craigslist. In a sense the steady stream of inputs will look more like a craigslist posting than a tweet. This part of creation will be the most difficult as everything will have to be stored in a database. Craigslist does a good job of this by creating a complex and well-organized database that information can be recalled from very easily. Therefore, the site is broken down into categories and in a table format a posting has a long list of columns. This will be useful for my project not only for the posting but the mechanic or shop pages as well and will help differentiate locations and provide a method to track diagnostics. 
+
 -------------
 
 ##### Reviewed Project 2: Wikipedia
