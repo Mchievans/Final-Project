@@ -1,0 +1,6 @@
+﻿mechanicId , mechanicUserName,mechanicFirstName,mechanicLAstName,Street,city,state,zipCode,phone,type,schedule,expertise,certifications
+1,basicbob77,bob,Billy,9541 goat rd,colubus ,GA,31907,706-897-8527,web,9am-6pm,Full service,
+2,leapinglim,lim,hicks,4218 hill loop,phenix city,AL,36867,334-721-9512,mobile,10am-4pm,Full service,ASE Transmission Repair
+3,carsonsdailys,carson,dow,6521 low point,columbus ,GA,31906,706-637-7543,web,8am-8pm,Auto Body,ASE Engine Repair
+4,bankonchuck,chuck,types,7841 grass way,opelika,AL,36801,334-529-9632,web,7am-5pm,Full service,ASE Engine Repair
+5,hallieharry,harry,wrench,7555 narrow ave,auburn,AL,36801,334-845-9675,mobile,930am-530pm,Full service,ASE Master Technician

@@ -1,0 +1,6 @@
+﻿vehicleid,UserId,make,model,type,year,DTC,DescriptionOfProblem,,,,,,
+1,4,dodge,challenger,SRT,2017,P0606,ECM/PCM PROCESSOR FAULT,,,,,,
+2,1,mercedes-benz,E-class,300,2016,P0615,STARTER RELAY CIRCUIT,,,,,,
+3,5,honda,fit,LX,2015,P0425,CATALYST TEMPERATURE SENSOR,,,,,,
+4,3,chevy,camaro,SS,2019,P0671,CYLINDER GLOW PLUG CIRCUIT,,,,,,
+5,2,kia,sorrento,EX,2014,P0526,FAN SPEED SENSOR CIRCUIT,,,,,,

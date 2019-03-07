@@ -1,0 +1,8 @@
+﻿ShopId ,ShopName ,OwnerFirstName,OwnerLastName,Street,city,state,zipCode,phone,type,schedule,expertise,certifications
+1,Billys Fast Auto,Billy,Bob,6454 Milgen Rd,colubus ,GA,31907,706 256-0397,web,9am-6pm,Performance Upgrades,"ASE Auto Advanced Engine Performance
+Specialist"
+2,Slims Sleek Body Shop,Slim,parks,2569 rugrats loop,phenix city,AL,36867,334-754-8125,web,10am-4pm,Auto Body,"ASE Structural Analysis and
+Damage Repair"
+3,Becky's Auto Collision ,Becky,sals,7535  blicky rd,columbus ,GA,31906,706-196-3562,web,8am-8pm,Auto Body,ASE Collision Repair
+4,Safe Automotives,Guy,high,4215 thompson ave,opelika,AL,36801,334-258-7512,web,7am-5pm,Full service,ASE Engine Repair
+5,Sals Salvage and Shop,Sal,times,3562 slip trail,auburn,AL,36801,334-967-1287,web,930am-530pm,Full service,ASE Master Technician
