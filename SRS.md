@@ -100,8 +100,26 @@ Placeholder was developed for everyone who experiences vehicle failure or troubl
 
  This section contains the requirements for placeholder.
 
- **3.1.1 Register Users**
+ **3.1.1 Register Users and Shops or mechanics**
 
  3.1.1.1  The system shall display a page that will allow users to register in a database.
 
- 3.1.1.2 The system shall display all components 
+ 3.1.1.2 The system shall display all components of the registration. 
+
+ 3.1.1.3 The system shall encrypt username and password of individuals in database.
+
+ 3.1.1.4 The system shall not accept usernames and password combinations already in database.
+
+ 3.1.1.5 The system shall reject passwords that do not me security requirements.
+
+ **3.1.2 User uploads a vehicle issue message**
+
+ 3.1.2.1 The system shall display a page specifically for the vehicle diagnosis.
+
+ 3.1.2.2 The system shall have input for a Diagnostic trouble Code (DTC).
+
+ 3.1.2.3 The system shall have a section for a description of for the vehicle issue.
+
+**3.1.3 User can browse shop or mechanic listing**
+
+3.1.3.1 
