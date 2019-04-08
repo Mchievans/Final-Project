@@ -15,9 +15,11 @@ replace "placeholder" with name
 
 #### **<div style="text-align: center"> Table of Contents </div>**
 
-Table of Contents ......................................i 
-Revision History  ........................................ii 
-1. Introduction...................................1
+Table of Contents i 
+
+Revision History  ii 
+
+1. Introduction
 
 2. Overall Description
 
@@ -120,6 +122,13 @@ Placeholder was developed for everyone who experiences vehicle failure or troubl
 
  3.1.2.3 The system shall have a section for a description of for the vehicle issue.
 
-**3.1.3 User can browse shop or mechanic listing**
+**3.1.3 User can browse shop or mechanic Profile**
 
-3.1.3.1 
+3.1.3.1 The system shall display a map with shop or mechanics locations.
+
+3.1.3.2 The system shall allow the user to view a list of profiles visible on map.
+
+3.1.3.3 The system shall display a shop or mechanics profile when clicked.
+
+3.1.3.4 The system shall display all information relevant to the mechanic or shop on profile page.
+
