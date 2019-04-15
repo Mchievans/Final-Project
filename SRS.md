@@ -132,3 +132,15 @@ Placeholder was developed for everyone who experiences vehicle failure or troubl
 
 3.1.3.4 The system shall display all information relevant to the mechanic or shop on profile page.
 
+**3.1.4 User or Mechanics can Log into website**
+
+3.1.4.1 The system shall display a page that provides a log in option.
+
+3.1.4.2 The system shall have a box to input username and password.
+
+3.1.4.3 The system shall authenticate the username and password.
+
+3.1.4.4 The system shall return the users or shops profile after information is authenticated.
+
+
+
