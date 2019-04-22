@@ -12080,11 +12080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malachi-admin\\source\\repos\\AutoFix\\AutoFix\\AutoFix.csproj",
+      "projectUniqueName": "C:\\Final Project\\AutoFix\\AutoFix\\AutoFix.csproj",
       "projectName": "AutoFix",
-      "projectPath": "C:\\Users\\Malachi-admin\\source\\repos\\AutoFix\\AutoFix\\AutoFix.csproj",
+      "projectPath": "C:\\Final Project\\AutoFix\\AutoFix\\AutoFix.csproj",
       "packagesPath": "C:\\Users\\Malachi-admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malachi-admin\\source\\repos\\AutoFix\\AutoFix\\obj\\",
+      "outputPath": "C:\\Final Project\\AutoFix\\AutoFix\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

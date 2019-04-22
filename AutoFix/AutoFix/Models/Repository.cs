@@ -48,10 +48,10 @@ namespace AutoFix.Models
             userSet.Add(U.UserName, U);
         }
 
-        public static bool CheckAuth(ShopAuth U)
+        public static bool CheckAuth(Login U)
         {
             var check = from KeyValuePair<string, Shop> user in GetShopUserInfo
-                        where U.ShopUserName == user.Key && user.Equals(U.Password)
+                        where U.UserName == user.Key && user.Equals(U.Password)
                         select user.Value;
             if (check == U)
             {

@@ -1,5 +1,60 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model AutoFix.Models.Shop
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="p-2">
+    <h3 class="text-center">Register Shop</h3>
+    <form asp-action="AddUser" method="post">
+        <div class="form-group">
+            <label asp-for="ShopUserName">ShopUserName:</label>
+            <input asp-for="ShopUserName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="FirstName">FirstName:</label>
+            <input asp-for="FirstName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName">LastName:</label>
+            <input asp-for="LastName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="State">State:</label>
+            <input asp-for="State" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Zipcode">Zipcode:</label>
+            <input asp-for="Zipcode" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="City">City:</label>
+            <input asp-for="City" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PhoneNumber">PhoneNumber:</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Expertise">Expertise:</label>
+            <input asp-for="Expertise" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Certifications">Certifications</label>
+            <input asp-for="Certifications" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Password">Password:</label>
+            <input asp-for="Password" class="form-control" />
+        </div>
+        <div class="text-center">
+            <button type="submit" asp-action="AddShop" class="btn btn-primary">Add</button>
+            <button asp-action="Index" class="btn btn-secondary">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -51,5 +51,23 @@ namespace AutoFix.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+
+            return View(new Login());
+        }
+
+        [HttpPost]
+        public IActionResult ReturnUser(Login U)
+        {
+            if (Repository.CheckAuth(U) ==  true)
+            return RedirectToAction("Index");
+
+            else 
+            return RedirectToAction("Login");
+
+        }
     }
 }
