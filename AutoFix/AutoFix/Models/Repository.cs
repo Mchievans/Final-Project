@@ -79,5 +79,21 @@ namespace AutoFix.Models
             }
         }
 
+        private static void AddLogin()
+        {
+
+            using (var context = new Login())
+            {
+
+                var student = new Login
+                {
+                    UserName = "Khan",
+                    Password = "Ali",
+                };
+                //context.UserName();
+                context.SaveChanges();
+            }
+        }
+
     }
 }
