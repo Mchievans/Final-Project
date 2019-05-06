@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AutoFix</title>
+</head>
+
+<body class="p-3">
+    <br />
+    <br />
+    <h2 class="text-center">Welcome to AutoFix! </h2>
+    <h5 class="text-center">Linking the right solution to the right problem.</h5>
+    <br />
+    <br />
+    <br />
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Register User</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Register Repair Shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Map</a>
+        </li>
+    </ul>
+
+    <div class="jumbotron" >
+        <form asp-action="AddUser" method="post">
+            <div class="form-group">
+                <label asp-for="UserName">Username:</label>
+                <input asp-for="UserName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" class="form-control" />
+            </div>
+            <div class="text-center">
+                <button type="submit" asp-action="AddShop" class="btn btn-primary justify-content-center">Login</button>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>

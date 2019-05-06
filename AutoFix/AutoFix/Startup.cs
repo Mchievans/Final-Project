@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace AutoFix
 {
     public class Startup
@@ -32,7 +33,7 @@ namespace AutoFix
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +42,9 @@ namespace AutoFix
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
+               // app.UseBrowserLink();
             }
             else
             {
@@ -50,9 +54,9 @@ namespace AutoFix
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
